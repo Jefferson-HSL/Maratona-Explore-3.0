@@ -94,13 +94,6 @@ article{
     gap: 0.5rem;
 }
 
-article > div{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 1.188rem;
-}
-
 .name{
     width: 7.888rem;
     height: 100%;
@@ -110,9 +103,12 @@ article > div{
 
 .cost{
     width: 3.938rem;
-    height: 100%;
+    height: auto;
     font-size: 1rem;
     font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    right: 35rem;
 }
 
 article > p{
